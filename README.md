@@ -1,0 +1,2 @@
+# ViLoW_Client
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f7ba8e8afa1c42da82807c03961516b2)](https://app.codacy.com/manual/leopedroso45/ViLoW_Client?utm_source=github.com&utm_medium=referral&utm_content=leopedroso45/ViLoW_Client&utm_campaign=Badge_Grade_Dashboard)
