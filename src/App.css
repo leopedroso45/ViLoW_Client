@@ -1,0 +1,10 @@
+nav {
+  background: #1c1c1c;
+}
+.jumbotron {
+  width: 100vw;
+  margin-top: 40px;
+}
+footer .container-fluid a {
+  word-break: break-word;
+}
