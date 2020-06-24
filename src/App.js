@@ -7,9 +7,11 @@ import FooterD from "./Components/Footer";
 import CardD from "./Components/Card";
 import axios from "axios";
 import _ from "lodash";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col,} from "react-bootstrap";
+
 
 function App() {
+  //video
   const [videos, setvideos] = useState([]);
 
   useEffect(() => {
@@ -31,6 +33,9 @@ function App() {
     <div style={{ backgroundColor: "#343A40" }}>
       <NavbarD />
       <JumbotronD id="container" />
+      
+      
+
       <Container>
         <Row md={4}>
           {_.map(videos, (video, index) => {

@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import logo from "../ViLoWofc.png";
 
-import { Jumbotron, Button } from "react-bootstrap";
+import { Jumbotron, Button, } from "react-bootstrap";
+import Upload from "./Upload";
+
 
 class JumbotronD extends Component {
   render() {
@@ -20,6 +22,9 @@ class JumbotronD extends Component {
             <Button variant="primary" onClick={refreshPage}>
               Reload
             </Button>
+          </p>
+          <p>
+          <Upload />
           </p>
         </center>
       </Jumbotron>
